@@ -10,6 +10,9 @@ var users = require('./routes/users');
 
 var app = express();
 
+// Set website title
+app.set('title', 'Class Registration');
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
